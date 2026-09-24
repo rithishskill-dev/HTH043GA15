@@ -1,0 +1,17 @@
+{
+  "name": "hackathon",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "api": "node server.mjs",
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "start": "npm run build && node server.mjs",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "typescript": "~6.0.2",
+    "vite": "^8.3.0"
+  }
+}
